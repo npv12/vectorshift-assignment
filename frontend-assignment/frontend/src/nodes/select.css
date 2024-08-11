@@ -1,0 +1,37 @@
+.select-container {
+    display: flex;
+    align-items: center;
+    min-width: 120px;
+    padding: 2px 0 1px 0;
+  }
+  
+  .select-container label {
+    margin-right: 8px;
+    font-size: 14px;
+  }
+  .custom-select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none;
+    background-color: white;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="none" stroke="currentColor" stroke-width=".5" d="M2 0L0 2h4zM2 5L0 3h4z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 8px 10px;
+    width: 100%; /* Added to make the dropdown 100% width */
+  }
+  
+  .custom-select:focus {
+    border-color: #3f51b5;
+    box-shadow: 0 0 0 2px rgba(63, 81, 181, 0.2);
+    outline: none;
+  }
+  
+  .custom-select option {
+    padding: 10px;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+  }
